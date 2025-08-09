@@ -1,5 +1,13 @@
-torch
-torchvision
-opencv-python
-numpy
-matplotlib
+# Deep Learning Framework
+torch>=2.0.0
+torchvision>=0.15.0
+
+# Computer Vision and Image Processing
+opencv-python>=4.8.0
+numpy>=1.24.0
+matplotlib>=3.7.0
+
+# Optional - Utilities for Development
+pillow>=10.0.0  # For image processing
+tensorboard>=2.13.0  # For training visualization
+tqdm>=4.65.0  # For progress bars
