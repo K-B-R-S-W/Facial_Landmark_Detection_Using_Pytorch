@@ -36,22 +36,23 @@ python test_model.py
 ## Project Structure
 ```
 Facial_Landmark_Detection_Using_Pytorch/
-├── main.py                # Main application (webcam landmark detection)
-├── test_model.py          # Script to test model loading and inference
-├── requirements.txt       # Python dependencies
+├── main.py                
+├── test_model.py          
+├── requirements.txt       
 ├── models/
-│   └── hrnetv2_w32_imagenet_pretrained.pth  # Pretrained HRNetV2 weights
+│   └── hrnetv2_w32_imagenet_pretrained.pth  
 ├── src/
 │   ├── __init__.py
-│   └── landmark_detector.py   # HRNetV2 and landmark detection implementation
+│   └── landmark_detector.py   
 ├── utils/
 │   ├── __init__.py
-│   └── video_utils.py         # Video and webcam utilities
+│   └── video_utils.py        
 └── README.md
 ```
 
 ## Notes
 - The pretrained model file is **not included** due to size. Download it manually and place it in the `models/` directory.
+- Make you own model with your own dataset and place that in the model area.
 - The code is modular and can be extended for other landmark datasets or detection tasks.
 - For troubleshooting, use `test_model.py` to debug model loading and inference.
 
@@ -64,12 +65,13 @@ Facial_Landmark_Detection_Using_Pytorch/
 ## 📮 Support
 
 **📧 Email:** [k.b.ravindusankalpaac@gmail.com](mailto:k.b.ravindusankalpaac@gmail.com)  
-**🐞 Bug Reports:** [GitHub Issues](https://github.com/K-B-R-S-W/Realtime_Sri_Lankan_License_Plate_Capture_System_Using_Yolo_V11/issues)  
-**📚 Documentation:** See the project [Wiki](https://github.com/K-B-R-S-W/Realtime_Sri_Lankan_License_Plate_Capture_System_Using_Yolo_V11/wiki)  
-**💭 Discussions:** Join the [GitHub Discussions](https://github.com/K-B-R-S-W/Realtime_Sri_Lankan_License_Plate_Capture_System_Using_Yolo_V11/discussions)
+**🐞 Bug Reports:** [GitHub Issues](https://github.com/K-B-R-S-W/Facial_Landmark_Detection_Using_Pytorch/issues)  
+**📚 Documentation:** See the project [Wiki](https://github.com/K-B-R-S-W/Facial_Landmark_Detection_Using_Pytorch/wiki)  
+**💭 Discussions:** Join the [GitHub Discussions](https://github.com/K-B-R-S-W/Facial_Landmark_Detection_Using_Pytorch/discussions)
 
 ---
 
 ## ⭐ Support This Project
+
 
 If you find this project helpful, please consider giving it a **⭐ star** on GitHub!
