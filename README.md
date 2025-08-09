@@ -1,44 +1,61 @@
+# 🎯 Facial Landmark Detection Using PyTorch
 
-# Facial Landmark Detection Using PyTorch
+A **real-time** facial landmark detection system powered by **PyTorch** and the **HRNetV2** architecture.  
+It supports **webcam-based detection**, **pretrained model loading**, and is **easily extensible** for research or production use.
 
-This project provides a real-time facial landmark detection system using PyTorch and the HRNetV2 architecture. It supports webcam-based detection, pretrained model loading, and easy extensibility for research or application use.
+---
 
-## Features
-- Real-time facial landmark detection from webcam
-- PyTorch-based HRNetV2 backbone with landmark detection head
-- Visual display and saving of detected landmarks
-- Modular code for easy extension and debugging
-- Includes test script for model and weight verification
+## 🚀 Features
+- 📸 **Real-time facial landmark detection** from webcam  
+- 🧠 **PyTorch-based HRNetV2** backbone with landmark detection head  
+- 🎨 Visual display & saving of detected landmarks  
+- 🛠 Modular code for **easy extension & debugging**  
+- ✅ Includes **test script** for model and weight verification  
 
-## Installation
+---
+
+## 📦 Installation
+
 1. **Clone this repository**
-2. **Install Python dependencies:**
+    ```bash
+    git clone https://github.com/K-B-R-S-W/Facial_Landmark_Detection_Using_Pytorch.git
+    cd Facial_Landmark_Detection_Using_Pytorch
+    ```
+
+2. **Install Python dependencies**
     ```bash
     pip install -r requirements.txt
     ```
-3. **Download the HRNetV2 pretrained weights:**
-    - Download `hrnetv2_w32_imagenet_pretrained.pth` and place it in the `models/` directory. See [HRNet GitHub](https://github.com/HRNet/HRNet-Image-Classification) for official weights.
 
-## Usage
+3. **Download the HRNetV2 pretrained weights**
+    - Download: `hrnetv2_w32_imagenet_pretrained.pth`  
+    - Place it in the `models/` directory.  
+    - Get official weights from: [HRNet GitHub](https://github.com/HRNet/HRNet-Image-Classification)
 
-### Run the Main Application
-This will start the webcam and display real-time facial landmark detection:
+---
+
+## 🖥 Usage
+
+### ▶ Run the Main Application  
+Start webcam-based real-time detection:
 ```bash
 python main.py
 ```
 
-### Run the Model Test Script
-To verify model architecture, weight loading, and detector functionality:
+### 🧪 Run the Model Test Script  
+Verify model architecture, weight loading & detector functionality:
 ```bash
 python test_model.py
 ```
 
-## Project Structure
+---
+
+## 📂 Project Structure
 ```
 Facial_Landmark_Detection_Using_Pytorch/
-├── main.py                
-├── test_model.py          
-├── requirements.txt       
+├── main.py                       # Main application
+├── test_model.py                  # Model verification script
+├── requirements.txt
 ├── models/
 │   └── hrnetv2_w32_imagenet_pretrained.pth  
 ├── src/
@@ -50,15 +67,19 @@ Facial_Landmark_Detection_Using_Pytorch/
 └── README.md
 ```
 
-## Notes
-- The pretrained model file is **not included** due to size. Download it manually and place it in the `models/` directory.
-- Make you own model with your own dataset and place that in the model area.
-- The code is modular and can be extended for other landmark datasets or detection tasks.
-- For troubleshooting, use `test_model.py` to debug model loading and inference.
+---
 
-## References
-- [HRNet: High-Resolution Representations for Labeling Pixels and Regions](https://arxiv.org/abs/1904.04514)
-- [HRNet Official GitHub](https://github.com/HRNet/HRNet-Image-Classification)
+## 📝 Notes
+- ⚠ **Pretrained model file not included** — download it manually to `models/`.  
+- 📂 You can **train your own model** and place it in the `models/` folder.  
+- 🔄 The code is modular — extend it for **other datasets** or **detection tasks**.  
+- 🛠 Use `test_model.py` for troubleshooting & debugging.  
+
+---
+
+## 📚 References
+- [📄 HRNet: High-Resolution Representations for Labeling Pixels and Regions](https://arxiv.org/abs/1904.04514)  
+- [💻 HRNet Official GitHub](https://github.com/HRNet/HRNet-Image-Classification)  
 
 ---
 
@@ -66,12 +87,10 @@ Facial_Landmark_Detection_Using_Pytorch/
 
 **📧 Email:** [k.b.ravindusankalpaac@gmail.com](mailto:k.b.ravindusankalpaac@gmail.com)  
 **🐞 Bug Reports:** [GitHub Issues](https://github.com/K-B-R-S-W/Facial_Landmark_Detection_Using_Pytorch/issues)  
-**📚 Documentation:** See the project [Wiki](https://github.com/K-B-R-S-W/Facial_Landmark_Detection_Using_Pytorch/wiki)  
-**💭 Discussions:** Join the [GitHub Discussions](https://github.com/K-B-R-S-W/Facial_Landmark_Detection_Using_Pytorch/discussions)
+**📚 Documentation:** [Project Wiki](https://github.com/K-B-R-S-W/Facial_Landmark_Detection_Using_Pytorch/wiki)  
+**💭 Discussions:** [GitHub Discussions](https://github.com/K-B-R-S-W/Facial_Landmark_Detection_Using_Pytorch/discussions)  
 
 ---
 
 ## ⭐ Support This Project
-
-
-If you find this project helpful, please consider giving it a **⭐ star** on GitHub!
+If you find this project helpful, please give it a **⭐ star** on GitHub — it motivates me to keep improving! 🚀
