@@ -29,8 +29,8 @@ It supports **webcam-based detection**, **pretrained model loading**, and is **e
 
 3. **Download the HRNetV2 pretrained weights**
     - Download: `hrnetv2_w32_imagenet_pretrained.pth`  
-    - Place it in the `models/` directory.  
     - Get official weights from: [HRNet GitHub](https://github.com/HRNet/HRNet-Image-Classification)
+    - After You trained the model, Place it in the `models/` directory.  
 
 ---
 
@@ -53,8 +53,8 @@ python test_model.py
 ## 📂 Project Structure
 ```
 Facial_Landmark_Detection_Using_Pytorch/
-├── main.py                       # Main application
-├── test_model.py                  # Model verification script
+├── main.py                       
+├── test_model.py                 
 ├── requirements.txt
 ├── models/
 │   └── hrnetv2_w32_imagenet_pretrained.pth  
@@ -70,7 +70,7 @@ Facial_Landmark_Detection_Using_Pytorch/
 ---
 
 ## 📝 Notes
-- ⚠ **Pretrained model file not included** — download it manually to `models/`.  
+- ⚠ **Pretrained model (you have to train your own model using the Pretrained Model) file not included**. 
 - 📂 You can **train your own model** and place it in the `models/` folder.  
 - 🔄 The code is modular — extend it for **other datasets** or **detection tasks**.  
 - 🛠 Use `test_model.py` for troubleshooting & debugging.  
@@ -94,3 +94,4 @@ Facial_Landmark_Detection_Using_Pytorch/
 
 ## ⭐ Support This Project
 If you find this project helpful, please give it a **⭐ star** on GitHub — it motivates me to keep improving! 🚀
+
