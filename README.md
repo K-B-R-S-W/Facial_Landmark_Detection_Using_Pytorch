@@ -57,7 +57,7 @@ Facial_Landmark_Detection_Using_Pytorch/
 ├── test_model.py                 
 ├── requirements.txt
 ├── models/
-│   └── hrnetv2_w32_imagenet_pretrained.pth  
+│   └── hrnetv2.pth  
 ├── src/
 │   ├── __init__.py
 │   └── landmark_detector.py   
@@ -94,4 +94,5 @@ Facial_Landmark_Detection_Using_Pytorch/
 
 ## ⭐ Support This Project
 If you find this project helpful, please give it a **⭐ star** on GitHub — it motivates me to keep improving! 🚀
+
 
